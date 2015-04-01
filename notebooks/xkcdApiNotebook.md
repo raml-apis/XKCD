@@ -16,7 +16,7 @@ assert = chai.assert
 
 ```javascript
 // Read about the Xksd at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/7711/versions/7844/contracts
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/7711/versions/7844/definition');
+API.createClient('client', '#REF_TAG_DEFENITION');
 ```
 
 If you want to fetch current comic and metadata automatically,
