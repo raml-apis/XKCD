@@ -3,8 +3,11 @@ title: XKCD
 baseUri: http://xkcd.com
 schemas:
   - comic: !include schemas/comic-schema.json
-/{comicId}/info.0.json: 
-  get: 
+/{comicId}/info.0.json:
+  uriParameters:
+    comicId:
+      type: number
+  get:
     description: |
       Fetch comics and metadata  by comic id.
     responses: 
