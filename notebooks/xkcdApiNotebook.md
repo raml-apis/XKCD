@@ -23,7 +23,7 @@ If you want to fetch current comic and metadata automatically,
 you can use the JSON interface.
 
 ```javascript
-currentComic = client["/info.0.json"].get()
+currentComic = client("/info.0.json").get()
 ```
 
 ```javascript
